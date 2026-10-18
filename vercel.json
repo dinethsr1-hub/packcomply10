@@ -1,3 +1,13 @@
 {
-  "version": 2
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/ai-inspector",
+      "destination": "/ai-inspector/index.html"
+    },
+    {
+      "source": "/ai-inspector.html",
+      "destination": "/ai-inspector/index.html"
+    }
+  ]
 }
